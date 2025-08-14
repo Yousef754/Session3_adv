@@ -12,5 +12,15 @@ namespace Session3_adv
         public static bool GreaterThan(int x, int y) {return x > y;}
         public static bool LessThan(int x, int y) { return x < y; }
 
+        public static bool Ascending(string v1, string v2)
+        {
+            return v1.Length > v2.Length;
+        }
+        public static bool Descending(string v1, string v2)
+        {
+            return v1.Length < v2.Length;
+        }
     }
+
 }
+
