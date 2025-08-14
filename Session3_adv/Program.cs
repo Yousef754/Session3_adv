@@ -89,7 +89,24 @@ namespace Session3_adv
 
 
             #endregion
+            #region V7
+            //predicate -func-action
+            // Predicate<int> predicate = ConditonFunction.Checkeven;
+            //bool r=predicate.Invoke(1)
+            // Console.WriteLine(r);
 
+
+            //func
+            // func<int> func=fun01;
+            //Func<int,string>fun02;
+
+
+            // Action
+            // Action<string>action=print;
+            //
+            //action.Invoke();
+
+            #endregion
 
         }
     }
