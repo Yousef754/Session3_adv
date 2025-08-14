@@ -14,7 +14,7 @@
             //BubbleSort.sortnumbers(numbers,X);
             BubbleSort.PrintArrays(numbers);
             Console.WriteLine();
-            SortDelegate X= ExpressionSort.LessThan;
+            SortDelegate<int> X= ExpressionSort.LessThan;
 
             BubbleSort.sortnumbers(numbers,X);
             BubbleSort.PrintArrays(numbers);
