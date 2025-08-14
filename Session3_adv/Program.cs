@@ -128,6 +128,35 @@ namespace Session3_adv
             // func<int,bool>func=x=>x%2=0;
 
             #endregion
+
+
+            #region assignment
+            List<Book> books = new List<Book>
+        {
+            new Book("1", "math", new string[] { "yousef", "esam" }, new DateTime(2020, 5, 10), 15000),
+            new Book("2", "art C#", new string[] { "omar, malak" }, new DateTime(2021, 7, 15), 20000)
+        };
+
+
+            //Create User Defined Delegate with the same signature of methods existed in Bookfunctions class.
+            LibraryEngine.ProcessBooks(books, new BookDelegate(BookFunction.GetTitle));
+
+            //Use the Proper build in delegate. 
+            LibraryEngine.ProcessBooks(books, BookFunction.GetAuthors);
+
+            //Anonymous Method (GetISBN).
+            LibraryEngine.ProcessBooks(books, delegate (Book b) { return b.ISBN; });
+
+
+            //Lambda Expression (GetPublicationDate).
+            LibraryEngine.ProcessBooks(books, b => b.PublicationData.ToShortDateString());
+
+
+
+
+
+
+            #endregion
         }
     }
 }
