@@ -60,6 +60,37 @@ namespace Session3_adv
             // list<int> evennumbers=findevennumbers(numbers);
             //print(oddnumbers)
             #endregion
+            #region V6
+            //PublicKey static list<T> findoddnumbers(List<T>list)
+            //    if(List>.count>0)
+            //    {for(int i=0;i<list.count;i++)
+            //      {
+            //        if(list[i]%2!=0)
+            //          result.add(list[i]);
+
+            //
+            //
+            //      return result
+            //      }
+            //    }
+
+            //PublicKey static list<int> finevennumbers(List<T>list)
+            //    if(List>.count>0)
+            //    {for(int i=0;i<list.count;i++)
+            //      {
+            //        if(list[i]%2!=0)
+            //          result.add(list[i]);
+
+            //
+            //
+            //      return result
+            //      }
+            //    }
+
+
+            #endregion
+
+
         }
     }
 }
