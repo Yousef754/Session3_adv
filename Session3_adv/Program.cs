@@ -106,8 +106,28 @@ namespace Session3_adv
             //
             //action.Invoke();
 
+
             #endregion
 
+
+            #region V8
+            // anonymous method
+
+            // list<int> Numbers=new list<int>(){1,2,3,4,5,6,7,8,9};
+            // anonymous method
+            //func<int,bool>func=delegate(int x){return x%2==0;};
+            //FindElements(Numbers,func);
+
+
+
+
+
+            //lambda Expression
+            //func<int,bool>func=delegate(int x){return x%2==0;};
+
+            // func<int,bool>func=x=>x%2=0;
+
+            #endregion
         }
     }
 }
